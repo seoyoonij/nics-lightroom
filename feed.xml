@@ -1,151 +1,30 @@
+---
+layout: null
+---
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Seoyoon Jung</title>
-        <description>Manus et Machina et Seoyooni, Spring 2025</description>
-        <link>http://localhost:4000/nics-lightroom/</link>
-        <atom:link href="http://localhost:4000/nics-lightroom/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 29 Jan 2025 11:01:57 +0400</pubDate>
-        <lastBuildDate>Wed, 29 Jan 2025 11:01:57 +0400</lastBuildDate>
-        <generator>Jekyll v4.4.0</generator>
-        
+        <title>{{ site.title | xml_escape }}</title>
+        <description>{{ site.description | xml_escape }}</description>
+        <link>{{ site.url }}{{ site.baseurl }}/</link>
+        <atom:link href="{{ "/feed.xml" | absolute_url }}" rel="self" type="application/rss+xml"/>
+        <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+        <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+        <generator>Jekyll v{{ jekyll.version }}</generator>
+        {% for post in site.posts limit:10 %}
             <item>
-                <title>What&apos;s in my bag, 2025</title>
-                <description>&lt;p&gt;Knolling at EDS.&lt;/p&gt;
-
-&lt;!--more--&gt;
-&lt;p&gt;A list of bag and desk support tools.&lt;/p&gt;
-
-&lt;p&gt;Inspired by [https://ma.tt/category/in-my-bag/]&lt;/p&gt;
-
-&lt;p&gt;THE BAG&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Jansport backpack. A trusty go-to that’s been with me for around 8 years. Not the most secure, but a good all-throw-in type of bag. Goes with Maram’s small Nepali fish.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;DEVICES&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;13’’ Macbook Air. Running on Intel i5 and 16GB RAM, the hand-me-down 2018 laptop is still going strong with most tasks to this day.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;iPad Pro, which I use as a digital notebook and sometimes for watching workout videos and reading on Kindle.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;iPhone 12 mini. Small phones are great to fit in backpockets. On the back is my sticky cardholder for Id, key card, FAB card, coupon, etc.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Airpods Pro 2nd gen (zombie). The last one in my apple farm. It has been through many drops, rips, and disfunctions. I just somehow get it working again.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;TI-84 Calculator. I rarely use it thesedays, but having it in the bag gives a baseline of comfort.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;SURVIVAL&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Thermos cup is for cold water, hot water, and most importantly, tea (Thanks, Matt).&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Emirates blanket. In my defense, my desk is very cold. This is a nice rectangular blanket of good ratio to have around the shoulders.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Bioderma Atoderm Creme Ultra. Always have a moisturizer at hand for the hands and arms.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Tabocine Doxycycline hyclate. Malaria pills I take every 6pm after the Jterm to Uganda. After Feb 11, I am free from the schedule.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Systane Ultra Eyedrops. Lifesaving water for the eyes!&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Thermal cup from the ARC. Again, good for tea, lime water, etc.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Glossier wild fig lipbalm. Small joys of carrying around gifts and using them.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;MISCELLAENOUS ESSENTIALS&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Wallet. Mostly cards but some cash dirhams I recently transacted with Wen. Even then, semi-essential because I rarely use cash and my essential cards are on the back of my phone.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Journal. Carrying it around brings me a sense of mindfulness. I can also jot down thoughts throughout the day as it emerges.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Pentel Graphgear 500 mechanical pencil. A trusty tool which I randomly got handed-down from a friend somehow.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Mintia is some mint from Japan.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Earphones from Korean Air, paired with Lightning adapter. It’s always a good idea to have some oldschool backup audio.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;(Reused) Paper bag. Good for carrying stuff like&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Multiple yogurts. (and apples as well, to spend the swipes.)&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;ETC&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Panadol Advance&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Another hand cream.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Some adaptors and cables I don’t quite use but could be helpful one day.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Yakgwa for sharing. They’re nice Korean traditional sweets.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Screwdriver toolbox. Got it from dad, and now Levan and Andre has grown fond of it recently.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;STM32 and debugger that lies on my desk for reference.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;STM32F411 Blackpill. Another one of my centipedes.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Teabags! Again for the idea of carrying them, rarely for usage. (It’s actually been kept for a while.)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Ugandan souvenir to give to a friend whom I encounter whenever I don’t have it at the moment.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Another Ugandan souvenir yet to deliver.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;La Chinata lipbalm from my friend. It smells cozy.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Pens.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;c.f. 32 items in total, if I still haven’t figured out the numbering properly by presentation.&lt;/p&gt;
-</description>
-                <pubDate>Wed, 29 Jan 2025 00:00:00 +0400</pubDate>
-                <link>http://localhost:4000/nics-lightroom/Graphic-Designer-On-The-Road</link>
-                <guid isPermaLink="true">http://localhost:4000/nics-lightroom/Graphic-Designer-On-The-Road</guid>
-                
-                <category>tips</category>
-                
-                <category>work</category>
-                
-                
+                <title>{{ post.title | xml_escape }}</title>
+                <description>{{ post.content | xml_escape }}</description>
+                <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+                <link>{{ post.url | absolute_url }}</link>
+                <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
+                {% for tag in post.tags %}
+                <category>{{ tag | xml_escape }}</category>
+                {% endfor %}
+                {% for cat in post.categories %}
+                <category>{{ cat | xml_escape }}</category>
+                {% endfor %}
             </item>
-        
+        {% endfor %}
     </channel>
 </rss>
