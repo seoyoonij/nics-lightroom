@@ -30,7 +30,7 @@ James Burke's journey to the modern production line.
   </tr>
 
   <tr>
-    <td><img src="images/2-2caliph.jpeg" alt="Caliph of Baghdad" width="400"></td>
+    <td><img src="images/2-2Caliph.jpeg" alt="Caliph of Baghdad" width="400"></td>
     <td>
       <h3>Caliph of Baghdad, 8th c</h3>
       <p>The <a href="https://en.wikipedia.org/wiki/Caliphate">Caliph</a> was cured by the director of the monastery and medical school in <a href="https://en.wikipedia.org/wiki/Academy_of_Gundishapur">Jundishapur</a> using <a href="https://en.wikipedia.org/wiki/Medical_astrology">Medical astrology</a>.</p>
