@@ -20,11 +20,6 @@ tags: [history]
     <img src="images/4-6mansa.jpeg" alt="Image 2" width="400">
   </div>
 
-  - c.1235-1600 CE, West Africa
-  - Timeline: [Ghana Empire](https://en.wikipedia.org/wiki/Ghana_Empire) - ['Mali Empire'](https://en.wikipedia.org/wiki/Mali_Empire) - [Songhai Empire](https://en.wikipedia.org/wiki/Songhai_Empire)
-  - Key figures: Establisher [Sundiata Keita](https://en.wikipedia.org/wiki/Sundiata_Keita), Peaked during [Mansa Musa](https://en.wikipedia.org/wiki/Mansa_Musa), one of the [richest people in history](https://www.youtube.com/watch?v=O3YJMaL55TM)
- 
-
 
 
 
